@@ -1,0 +1,13 @@
+l=[]
+n=int(input("\nlength of list: ")) #number of desired elements
+for i in range(n):
+    a=input("Enter value: ") #appending list
+    l.append(a)
+
+
+for i in l:
+    count=0
+    for ele in l:
+        if (ele == i):
+            count = count + 1
+    print("Count of",i,"=",count) #count of each word
